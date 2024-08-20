@@ -6,13 +6,13 @@ import fs from 'fs'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '255734980103', process.env.OWNER_NAME || 'lazack28', true],
-  ['255779679079', 'lazack 28', true]
+  [process.env.OWNER_NUMBER || '256740736550', process.env.OWNER_NAME || 'drantech', true],
+  ['256740736550', 'lazack 28', true]
 ]
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || '𝐋𝐀𝐙𝐀𝐂𝐊-𝐌𝐃 v 2'
+global.author = process.env.OWNER_NAME || 'DRANTECH v 2'
 global.botname = process.env.BOT_NAME || '𝙇𝘼𝙕𝘼𝘾𝙆-𝙈𝘿'
 global.oname = author
 global.bname = botname
@@ -45,8 +45,8 @@ global.bug = '*!! Sorry 💢 !!*\nSomething went wrong 🌋'
 global.stop = '*!! 🎭 Unfortunately 💔 !!*\nBot system is not Responding 🙃'
 
 //TimeLines
-global.botdate = `*⫹⫺ Date:*  ${moment.tz('Asia/Kolkata').format('DD/MM/YY')}`
-global.bottime = `*⫹⫺ Time:* ${moment.tz('Asia/Kolkata').format('HH:mm:ss')}`
+global.botdate = `*⫹⫺ Date:*  ${moment.tz('Africa/Uganda').format('DD/MM/YY')}`
+global.bottime = `*⫹⫺ Time:* ${moment.tz('Africa/Uganda a').format('HH:mm:ss')}`
 
 //Hosting Management
 global.serverHost = 1
@@ -54,11 +54,11 @@ global.getQrWeb = 0
 global.renderHost = 0
 global.replitHost = 0
 
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "256740736550" //put your bot number here
 
-global.mods = ['255734980103','255734980103']
-global.prems = ['255734980103','255734980103']
-global.allowed = ['255734980103','255734980103']
+global.mods = ['256740736550','256740736550']
+global.prems = ['256740736550','256740736550']
+global.allowed = ['256740736550','256740736550']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
